@@ -1050,23 +1050,26 @@ h5.title0 {
 }
 /* black and white image */
 .blackwhiteimg {
+  width: 200px;
+  height: 60px;
   filter: grayscale(100%);
   -webkit-filter: grayscale(100%);
   -moz-filter: grayscale(100%);
   filter: grayscale(100%);
   filter: gray;
   -webkit-filter: grayscale(1);
-  border: 1px solid #bbbbbb;
+  border: 2px solid #bbbbbb;
 }
 
 .blackwhiteimg:hover {
+  z-index: 100px;
   filter: grayscale(0%);
   -webkit-filter: grayscale(0%);
   -moz-filter: grayscale(0%);
   filter: grayscale(0%);
   filter: none;
   -webkit-filter: grayscale(0);
-  border: 1px solid #0066FF;
+  border: 2px solid #0066FF;
 }
 
 /* HOME PARALLAX */
@@ -1161,8 +1164,8 @@ article img {
 }
 
 .cbp-qtrotator blockquote p {
-  font-family: "Courier New", Courier, monospace;
-  font-size: 28px;
+  font-family: 'Mulish', sans-serif;
+  font-size: 24px;
   font-weight: 400;
   font-style: italic;
   margin-top: 10px;
