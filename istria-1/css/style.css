@@ -274,7 +274,7 @@ strong {
 }
 
 .backimg {
-  no-repeat center center fixed; 
+  --no-repeat: center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -303,7 +303,7 @@ strong {
   height: 100vh;
   width: 100%;
   background-color: #1F2535;
-  background: url(../img/istra1920.jpg) no-repeat center center fixed;
+  background: url(../img/logo.png) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -324,7 +324,7 @@ section {
   min-height: 100vh;
   width: 100%;
   background-color: #141C31;
-  background: url(../images/opatija3.jpg);
+  background: url(../images/fondo_rows.png);
 }
 
 #section-4 {
@@ -341,19 +341,24 @@ section {
 }
 /* INTRO TITLE */
 
+
+/*SE USAAAAAAA PARA EL TITULO*/
+
 h1#title-1 {
   text-align: center;
-  color: rgba(250, 250, 250, 0.9);
+  color: rgba(10, 10, 10, 0.9);
   font-family: 'Roboto', sans-serif;
-  font-size: 20px;
+  font-size: 25px;
   letter-spacing: 2px;
   line-height: 50px;
   font-style: normal;
-  font-weight: 100;
+  font-weight: bold;
+  text-shadow: 3px 3px 7px white, 0 0 1em white, 0 0 0.2em white;
 }
-
+/*SE USAAAAAAA PARA EL TITULO*/
 #title-1 em {
   font-family: 'EB Garamond', serif;
+  font-weight: bold;
   font-size: 100px;
   text-transform: uppercase;
   letter-spacing: 5px;
@@ -363,6 +368,7 @@ h1#title-1 {
   text-shadow: 0.07em 0.07em 0 rgba(0, 0, 0, 0.2);
   -webkit-perspective: 1000;
   perspective: 1000;
+  text-shadow: 5px 5px 9px white, 0 0 2em white, 0 0 0.2em white;
 }
 
 #title-1 em::before,
@@ -496,12 +502,13 @@ a.scroll::after {
   display: inline-block;
   width: 50px;
   height: 50px;
+  background-color: black;
   -webkit-transform: rotate(45deg);
   -moz-transform: rotate(45deg);
   -ms-transform: rotate(45deg);
   -o-transform: rotate(45deg);
   transform: rotate(45deg);
-  border: 1px solid #fff;
+  border: 2px solid #fff;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   -ms-border-radius: 5px;
@@ -588,10 +595,11 @@ a.scroll::after {
 
 .title-2 span {
   font-size: 72px;
-  font-weight: 100;
+  font-weight: 1000px;
   padding-top: 10px;
   padding-bottom: 60px;
-  color: #0099FF;
+  color: black;
+  text-shadow: 4px 7px 3px rgba(218, 86, 62, 0.98);
   display: block;
 }
 
@@ -967,7 +975,24 @@ h5.title0 {
   padding-right: 10px;
   padding-bottom: 10px;
 }
-
+.black{
+  background: black;
+}
+.yellow{
+  background: rgb(196, 196, 35);
+}
+.gris{
+  background: rgb(80, 78, 78);
+}
+.orange{
+  background: orange;
+}
+.plomo{
+  background: gray;
+}
+.red{
+  background: red;
+}
 .lightblue {
   background: #0099ff;
 }
